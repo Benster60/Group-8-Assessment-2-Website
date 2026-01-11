@@ -1,7 +1,7 @@
 body {
-  background-color: #d97d55; 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif;
+  background-color: #d97d55;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
   margin: 0;
   padding: 20px;
   color: #f4e9d7;
@@ -11,20 +11,18 @@ header {
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 30px;
-  border-bottom: 2px solid #b8c4a9;
 }
 
 h1#title {
   color: #f4e9d7;
   margin: 0;
+  border-bottom: 2px solid #b8c4a9;
 }
-
 
 main {
   max-width: 800px;
   margin: 0 auto;
 }
-
 
 .link-section {
   margin-bottom: 25px;
@@ -37,11 +35,10 @@ h2.subtitle {
   font-size: 1.2rem;
 }
 
-
 .clickable-tabs {
-  display: block; 
-  background-color: #f4e9d7; 
-  color: #d97d55; 
+  display: block;
+  background-color: #f4e9d7;
+  color: #d97d55;
   padding: 15px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -49,13 +46,11 @@ h2.subtitle {
   transition: background-color 0.2s, transform 0.2s;
 }
 
-
 a:hover {
-  background-color: #ffffff; 
-  transform: translateY(-2px); 
+  background-color: #ffffff;
+  transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 .uml-image-container {
   display: grid;
@@ -71,4 +66,12 @@ img.uml-diagram {
   padding: 10px;
   box-sizing: border-box;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pages {
+  display: flex;
+}
+.page {
+  width: 50%;
+  padding: 10px;
 }
